@@ -1,0 +1,21 @@
+.indicator-list, .indicator-field {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: #ffffffe6;
+    text-transform: uppercase;
+    /*min-width: 40%*/
+}
+
+.indicator-value{
+    font-size: 2rem;
+}
+
+.indicator-field{
+    flex-direction: column;
+    min-width: 30%;
+    background: #5b6a9682;
+    border: 1px solid #606b85;
+    border-radius: 5px;
+}

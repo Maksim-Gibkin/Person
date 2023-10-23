@@ -1,0 +1,46 @@
+
+.input-number-wrap {
+  display: flex;
+  align-items: center;
+  box-shadow: 4px 8px 40px rgb(60 125 245 / 50%);
+  border-radius: 8px;
+}
+
+
+.value-button {
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  background: #8babff4d;
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+  .decrease {
+  border-radius: 8px 0 0 8px;
+}
+
+ .increase {
+  border-radius: 0 8px 8px 0;
+}
+
+
+.input-number {
+  text-align: center;
+  border: none;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  font-size: 1.2rem;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

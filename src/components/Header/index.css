@@ -1,0 +1,51 @@
+.header {
+    background-color: #272e43;
+    min-height: 100px;
+    width: 100%;
+    padding: 1rem 1.5rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+    grid-template-rows: 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.header-link-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.header-link {
+    max-width: 150px;
+    height: 40px;
+    width: 100%;
+    background: #8babff4d;
+    cursor: pointer;
+
+    border: 1px solid #606b85;
+    border-radius: 5px;
+    color: #ffffffe6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header-input-file {
+    position: relative;
+}
+.header-input-file span {
+    position: relative;
+    cursor: pointer;
+    height: 40px;
+    padding: 8px 37px;
+}
+.header-input-file input[type=file] {
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    cursor: pointer;
+    padding: 18px 37px;
+}
